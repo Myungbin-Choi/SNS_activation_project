@@ -11,8 +11,7 @@
 
 ### 활용 데이터
 **유저 이벤트 로그 데이터 (총 4,113개 학교 / 유저 98,789명)**
-![data]
-
+![data](https://github.com/Myungbin-Choi/SNS_activation_project/blob/main/images/data.png)
 
 ### 수행 역할
 - pandas, matplotlib, seaborn을 활용한 데이터 분석 및 시각화
@@ -21,19 +20,21 @@
 ---
 
 ## 분석 과정 및 주요 결과
-
-
-
-
-
-
-
+![clustering_process](https://github.com/Myungbin-Choi/SNS_activation_project/blob/main/images/clustering_process.png)
+![preprocessing](https://github.com/Myungbin-Choi/SNS_activation_project/blob/main/images/preprocessing.png)
+![clustering1](https://github.com/Myungbin-Choi/SNS_activation_project/blob/main/images/clustering1.png)
+![clustering2](https://github.com/Myungbin-Choi/SNS_activation_project/blob/main/images/clustering2.png)
+![clustering3](https://github.com/Myungbin-Choi/SNS_activation_project/blob/main/images/clustering3.png)
+![clustering4](https://github.com/Myungbin-Choi/SNS_activation_project/blob/main/images/clustering4.png)
+![clustering5](https://github.com/Myungbin-Choi/SNS_activation_project/blob/main/images/clustering5.png)
+![clustering6](https://github.com/Myungbin-Choi/SNS_activation_project/blob/main/images/clustering6.png)
+![clustering7](https://github.com/Myungbin-Choi/SNS_activation_project/blob/main/images/clustering7.png)
 
    
 ### 개선제안
 - SNS 이용에 있어 우리 서비스가 고활성화된 학교는 그렇지 않은 학교 대비 '친구 초대', '질문 공유'와 같은 소셜 기능을 적극적으로 활용하고 있고, 이것이 메인 이벤트의 발생 빈도를 높이고 서비스 활성화에 기여하고 있는 것으로 확인됨
 - 타 클러스터에도 확대적용을 위해 A/B테스트 설계함
-![abtest](https://github.com/Myungbin-Choi/recruitment-platform-funnel/blob/main/images/abtest.png)
+![abtest](https://github.com/Myungbin-Choi/SNS_activation_project/blob/main/images/abtest.png)
 ---
 
 ## directory structure
@@ -43,12 +44,5 @@
 ├── SNS_activation.py             <- 분석 통합 파일 (code 공유용)
 ├── SNS활성화 프로젝트_요약보고서.pdf    <- 프로젝트 3page 요약 파일
 ├── SNS활성화 프로젝트_보고서.pdf       <- 프로젝트 보고서 요약 파일
-├── images                        <- 주요 이미지 파일
-│   ├── abtest.png       
-│   ├── funnel.png      
-│   ├── funnel_anlalytics.png   
-│   └── persona.png            
-│   └── process.png           
-│   └── user_journey.png        
-│   └── user_journey_differences.png           
+├── images                        <- 주요 이미지 파일        
 ```
